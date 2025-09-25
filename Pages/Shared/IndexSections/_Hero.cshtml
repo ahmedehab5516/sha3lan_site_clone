@@ -1,0 +1,73 @@
+@model dynamic
+
+<!-- Main Hero Section Container -->
+<section id="hero" class="relative w-full max-w-6xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden my-8">
+    <div class="grid grid-cols-1 md:grid-cols-2">
+
+        <!-- Right Column: Text Content (Adapted for RTL) -->
+        <div class="p-8 md:p-16 flex flex-col justify-center relative order-last md:order-first">
+            <!-- Top-right circular logo -->
+            <div class="absolute top-8 right-8 flex items-center justify-center w-20 h-20 border-2 border-gray-300 rounded-full">
+                <div class="text-center text-sm font-semibold text-gray-600 leading-tight">
+                    Sha3Clone
+                </div>
+            </div>
+
+            <!-- Top-left contact info -->
+            <div class="absolute top-8 left-8">
+                <a href="mailto:info@sha3clone.com" class="text-sm font-medium text-gray-600 hover:text-gray-900 tracking-wider">INFO@SHA3CLONE.COM</a>
+            </div>
+
+
+            <!-- Main Text Block -->
+            <div class="mt-24 text-right">
+                <p class="text-gray-500 font-semibold tracking-widest text-sm uppercase mb-2">
+                    تصاميمنا الخشبية
+                </p>
+                <h1 class="text-5xl md:text-3xl font-bold text-gray-800 leading-tight">
+                    مجموعة المصمم
+                </h1>
+                <p class="mt-6 text-gray-600 max-w-md ml-auto">
+                    نحن وكالة تطوير متخصصة في إنشاء تجارب ويب مذهلة باستخدام .NET. من الصفحات المقصودة المذهلة إلى تطبيقات الويب المعقدة.
+                </p>
+            </div>
+
+            <!-- Bottom-right website URL -->
+            <div class="absolute bottom-8 right-8">
+                <a href="#" class="text-sm font-medium text-gray-600 hover:text-gray-900 tracking-wider">WWW.SHA3CLONE.COM</a>
+            </div>
+        </div>
+      <!-- Left Column: Image and Features (Adapted for RTL) -->
+<!-- Left Column: Image and Features (Adapted for RTL) -->
+<div class="relative bg-[#EAE8E4] flex flex-col items-center justify-center min-h-[400px] md:min-h-0 order-first md:order-last">
+    <!-- Image Placeholder -->
+    <div class="absolute inset-0">
+        <img src="~/images/grey-sofa.jpg" alt="مجموعة أثاث المصمم" class="w-full h-full object-cover">
+    </div>
+
+    <!-- Features/Icons -->
+    <div class="absolute bottom-9 inset-x-0 flex justify-evenly z-10">
+        <div class="flex items-center space-x-2 space-x-reverse bg-white/50 backdrop-blur-sm px-3 py-1 rounded-full">
+            <span class="text-sm text-gray-700 font-medium">صناعة يدوية</span>
+            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+            </svg>
+        </div>
+        <div class="flex items-center space-x-2 space-x-reverse bg-white/50 backdrop-blur-sm px-3 py-1 rounded-full">
+            <span class="text-sm text-gray-700 font-medium">شحن مجاني</span>
+            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2 2h8a1 1 0 001-1zM3 11h10M16 16l4-4m0 0l-4-4m4 4H9"></path>
+            </svg>
+        </div>
+        <div class="flex items-center space-x-2 space-x-reverse bg-white/50 backdrop-blur-sm px-3 py-1 rounded-full">
+            <span class="text-sm text-gray-700 font-medium">مريح</span>
+            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+        </div>
+    </div>
+</div>
+
+    </div>
+</section>

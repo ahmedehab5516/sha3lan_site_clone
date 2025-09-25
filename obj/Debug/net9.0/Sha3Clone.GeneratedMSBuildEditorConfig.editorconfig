@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sha3Clone
+build_property.RootNamespace = Sha3Clone
+build_property.ProjectDir = A:\dotnet\sha3lan\HighSiteClone\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = A:\dotnet\sha3lan\HighSiteClone
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/IndexSections/_Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4U2VjdGlvbnNcX0NhdGVnb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/IndexSections/_Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4U2VjdGlvbnNcX0NvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/IndexSections/_Faq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4U2VjdGlvbnNcX0ZhcS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/IndexSections/_Featured.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4U2VjdGlvbnNcX0ZlYXR1cmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/IndexSections/_Hero.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4U2VjdGlvbnNcX0hlcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/IndexSections/_Process.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluZGV4U2VjdGlvbnNcX1Byb2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/_FaqItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9GYXFJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/_WorkSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Xb3JrU2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/dotnet/sha3lan/HighSiteClone/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u7vd303jzo

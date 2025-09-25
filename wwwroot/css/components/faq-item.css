@@ -1,0 +1,53 @@
+/* FAQ Item Styles */
+.faq-item {
+    background: linear-gradient(
+        to right,
+        rgba(74, 222, 128, 0.03),
+        rgba(45, 212, 191, 0.03)
+    );
+    border: 1px solid rgba(74, 222, 128, 0.1);
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    border-color: rgba(74, 222, 128, 0.3);
+    box-shadow: 0 4px 20px -2px rgba(74, 222, 128, 0.05);
+}
+
+.faq-item .accordion-header {
+    position: relative;
+    z-index: 1;
+}
+
+.faq-item .accordion-header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 0;
+    background: linear-gradient(to bottom, #4ade80, #2dd4bf);
+    transition: height 0.3s ease;
+}
+
+.faq-item.active .accordion-header::before {
+    height: 100%;
+}
+
+.faq-item .chevron-icon {
+    transition: transform 0.3s ease;
+}
+
+.faq-item.active .chevron-icon {
+    transform: rotate(-180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.faq-item.active .accordion-content {
+    max-height: 300px;
+}

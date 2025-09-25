@@ -1,0 +1,91 @@
+<section id="faq" class="py-20 fade-in-section">
+    <div class="text-center mb-12">
+        <span class="text-green-500 text-sm font-semibold tracking-wider uppercase">الدعم</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">الأسئلة الشائعة</h2>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+            ابحث عن إجابات للأسئلة الشائعة حول شراء وبيع الأثاث على منصتنا.
+        </p>
+    </div>
+    <div class="max-w-3xl mx-auto space-y-4">
+        <!-- Accordion Item 1 -->
+        <div class="faq-item bg-white rounded-lg overflow-hidden shadow-sm">
+            <button class="accordion-header w-full flex justify-between items-center p-6 text-left">
+                <span class="text-lg font-medium text-gray-900 pl-6">كيف تعمل عملية الدفع؟</span>
+                <i data-lucide="chevron-down" class="chevron-icon w-5 h-5 text-green-500" ></i>
+            </button>
+            <div class="accordion-content">
+                <div class="px-6 pb-6 text-gray-600">
+                    تقدم منصتنا العديد من خيارات الدفع الآمنة:
+                    <ul class="mt-2 space-y-2 list-disc list-inside">
+                        <li>خدمة الضمان الآمنة للعناصر عالية القيمة</li>
+                        <li>الدفع المباشر من خلال منصتنا</li>
+                        <li>الدفع عند الاستلام للاستلام المحلي</li>
+                    </ul>
+                    جميع المعاملات محمية بموجب سياسة حماية المشتري الخاصة بنا.
+                </div>
+            </div>
+        </div>
+        <!-- Accordion Item 2 -->
+        <div class="faq-item bg-white rounded-lg overflow-hidden shadow-sm">
+            <button class="accordion-header w-full flex justify-between items-center p-6 text-left">
+                <span class="text-lg font-medium text-gray-900 pl-6">ماذا عن التوصيل والشحن؟</span>
+                <i data-lucide="chevron-down" class="chevron-icon w-5 h-5 text-green-500"></i>
+            </button>
+            <div class="accordion-content">
+                <div class="px-6 pb-6 text-gray-600">
+                    نحن نقدم خيارات توصيل مرنة:
+                    <ul class="mt-2 space-y-2 list-disc list-inside">
+                        <li>خدمات توصيل شريكة للمناطق المحلية</li>
+                        <li>شحن على مستوى البلاد للعناصر المؤهلة</li>
+                        <li>الاستلام الذاتي المرتب بين المشترين والبائعين</li>
+                    </ul>
+                    يتم احتساب تكاليف التوصيل بناءً على حجم العنصر والمسافة.
+                </div>
+            </div>
+        </div>
+        <!-- Accordion Item 3 -->
+        <div class="faq-item bg-white rounded-lg overflow-hidden shadow-sm">
+            <button class="accordion-header w-full flex justify-between items-center p-6 text-left">
+                <span class="text-lg font-medium text-gray-900 pl-6">ماذا لو لم يكن العنصر كما هو موصوف؟</span>
+                <i data-lucide="chevron-down" class="chevron-icon w-5 h-5 text-green-500"></i>
+            </button>
+            <div class="accordion-content">
+                <div class="px-6 pb-6 text-gray-600">
+                    لدينا سياسة شاملة لحماية المشتري:
+                    <ul class="mt-2 space-y-2 list-disc list-inside">
+                        <li>فترة فحص 48 ساعة بعد التسليم</li>
+                        <li>نظام التحقق من الصور والحالة</li>
+                        <li>عملية استرداد آمنة إذا كانت العناصر لا تتطابق مع الوصف</li>
+                    </ul>
+                    فريق الدعم لدينا متاح للمساعدة في حل أي مشاكل.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const accordions = document.querySelectorAll(".faq-item");
+
+    accordions.forEach(item => {
+        const header = item.querySelector(".accordion-header");
+        const content = item.querySelector(".accordion-content");
+        const icon = item.querySelector(".chevron-icon");
+
+        header.addEventListener("click", () => {
+            // إغلاق أي accordion مفتوح غير الحالي
+            accordions.forEach(i => {
+                if (i !== item) {
+                    i.querySelector(".accordion-content").classList.add("hidden");
+                    i.querySelector(".chevron-icon").classList.remove("rotate-180");
+                }
+            });
+
+            // toggle الحالي
+            content.classList.toggle("hidden");
+            icon.classList.toggle("rotate-180");
+        });
+    });
+});
+</script>

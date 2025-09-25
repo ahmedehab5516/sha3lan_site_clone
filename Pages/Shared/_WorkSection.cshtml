@@ -1,0 +1,14 @@
+@model dynamic
+
+<section id="work" class="py-20 fade-in-section">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-12">Our Work</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <partial name="_ProjectCard" 
+                model='new { ImageUrl = "https://placehold.co/600x400/1f2937/4ade80?text=Project+One", 
+                           Title = "E-Commerce Platform", Category = "Web Development" }' />
+        
+        <partial name="_ProjectCard" 
+                model='new { ImageUrl = "https://placehold.co/600x400/1f2937/4ade80?text=Project+Two", 
+                           Title = "Corporate Landing Page", Category = "UI/UX Design & Development" }' />
+    </div>
+</section>

@@ -1,0 +1,13 @@
+@model dynamic
+
+<div class="bg-white rounded-lg border border-gray-200 shadow-sm">
+    <button class="accordion-header w-full flex justify-between items-center p-6 text-left">
+        <span class="text-lg font-medium text-gray-900">@Model.Question</span>
+        <i data-lucide="chevron-down" class="w-5 h-5 text-green-500 transition-transform transform"></i>
+    </button>
+    <div class="accordion-content">
+        <div class="p-6 pt-0 text-gray-600">
+            @Model.Answer
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+/* Project Card Animations */
+.project-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(17, 24, 39, 0) 0%,
+        rgba(17, 24, 39, 0.8) 100%
+    );
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.project-card:hover .project-card-overlay {
+    opacity: 1;
+}
+
+.project-card img {
+    transition: transform 0.7s ease-in-out;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    transform: translateY(20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.project-card:hover .project-card-content {
+    transform: translateY(0);
+}
